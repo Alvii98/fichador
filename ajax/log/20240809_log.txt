@@ -1,0 +1,13 @@
+[2024-08-09 22:10:54] Intento de fichado sin coincidencias  ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 22:20:09] Intento de fichado sin coincidencias  ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:27:46] Fichado pero revisar si tiene foto  ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:27:59] Fichado pero revisar si tiene foto  ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:29:41] Fichado pero revisar si tiene foto 40756445 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:29:42] Fichado correctamente 40756445 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:00] Fichado correctamente 40756445 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:11] Fichado pero revisar si tiene foto 777777 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:12] Fichado correctamente 777777 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:21] Fichado pero revisar si tiene foto 77777 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:22] Fichado correctamente 77777 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:30:31] Fichado correctamente 77777 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 
+[2024-08-09 23:31:57] Fichado correctamente 40756445 ip ::1 Dispositivo Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 

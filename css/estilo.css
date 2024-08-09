@@ -1,0 +1,328 @@
+
+/****** OCULTAR FLECHITAS DEL INPUT NUMBER *******/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+.colgar_fichador{
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#documento{
+  color: #333;
+  font-size: 22px;
+  font-weight: 700
+}
+
+#flechas{
+  position: absolute;
+  top: 15%;
+  left: 41%;
+}
+
+.recuadro {
+  position: absolute;
+  top: 7%;
+  left: 39%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #00ff22;
+  padding: 10px;
+  margin: 20px;
+}
+
+.recuadro2 {
+  position: absolute;
+  top: 21%;
+  left: 39%;
+  width: 200px;                                                                                                                                                                                                                                                                                                                                                                                                                      
+  height: 200px;
+  border: 5px solid #00ff22;
+  padding: 10px;
+  margin: 20px;
+}
+/* .manito:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0.5,0.10);
+} */
+
+.teclado{
+  border-color: black !important;
+  color: black;
+  font-weight: 900;
+  position: fixed;
+  bottom: -3%;
+  left: 49%;
+  background-color: rgba(0,0,0.5,0.10);
+  transform: translate(-50%, -10%);
+  border-radius: 10px;
+}
+.f-s{
+  font-size: 30px;
+}
+
+.tec{
+  font-size: x-large;
+}
+
+#mensajes{
+  font-weight: 900;
+  text-align: center !important;
+  color: #00ff22;
+  width: 100% !important;
+  position: absolute;
+}
+
+.flecha-left {
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-bottom: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-right: 75px solid #FF0000;
+  float: right;
+  animation: salto 1s alternate infinite;
+}
+.flecha-left:nth-child(2){ 
+  animation-delay: 0.40s; 
+  animation: salto 1s alternate infinite;
+}
+.flecha-left:nth-child(3){ 
+  animation-delay: 0.80s; 
+  animation: salto 1s alternate infinite;
+}
+
+@keyframes salto {
+  from {
+      opacity: 1;
+  }
+  to{
+       opacity: 0;
+  }
+}
+
+video {
+  display: none;
+} 
+
+main {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  z-index: 1;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+main canvas {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2%;
+}
+
+#screen{
+  font-size: xxx-large;
+  position: fixed;
+  top: 30px;
+  right: 66px;
+  cursor: pointer;
+}
+#screen2{
+  position: fixed;
+  top: 30px;
+  right: 80px;
+  cursor: pointer;
+}
+
+.similmodal {
+  z-index: 10;
+  width: 100%;
+  min-height: 300px;
+  position: fixed;
+  top: 50px;
+}
+
+.foto-navbar{
+  height: 60px !important;
+  border-radius: 50% !important;
+  width: 60px;
+  object-fit: cover;
+}
+
+.bd-tab {
+  animation: fadeEffect 1s;
+  border: #dadada solid 1px;
+  padding-top: 10px !important;
+  border-radius: .0rem .0rem .5rem .5rem!important;
+  margin-bottom: 20px;
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+.nav-pills>li>a {
+  border-radius: 4px 4px 0px 0px!important;
+  cursor: pointer;
+
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 12px 15px;
+}
+.nav>li{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.nav>li:hover{
+  background-color: #0072bb !important;
+}
+.lupa{
+  font-size: 30px;
+  position:relative !important;
+  top:10%;
+  right:3.5%;
+}
+
+
+/***********************************************
+        PARA CREAR EL SCROLL TABLA
+***********************************************/
+table thead{
+  background-color: #f8f8f8;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  /* top: -20px; */
+}
+
+td{
+  font-size: 12px !important;
+}
+th{
+  font-size: 15px !important;
+}
+
+.scroll_tab {
+  height: auto;
+  max-height: 550px;
+  overflow-y:auto;
+  overflow-x:auto;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.foto-card{
+  height: 120px !important;
+  border-radius: 50% !important;
+  box-shadow: 0px 0px 10px black;
+  width: 120px;
+  object-fit: cover;
+}
+
+/***********************************************
+            PARA CREAR EL LOADER
+***********************************************/
+.loader {
+  position: relative;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 250px;
+  height: 250px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+      -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/*************** FIN LOADER ********************/
+
+
+
+/***********************************************
+           ESTILO PARA CELULARES
+***********************************************/
+
+@media (max-width: 600px){
+
+  div[data-name] {
+    content-visibility: hidden;
+  }
+  .col-xs-1{
+    margin-right: 10px !important;
+  }
+}
+
+/**Fichador**/
+
+.reloj{
+  color: #45658d;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media (max-height: 1300px){
+  #teclado{
+    display: none;
+  }
+  .colgar_fichador{
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  main canvas {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    border-radius: 2% !important;
+  }
+}

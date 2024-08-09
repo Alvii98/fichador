@@ -1,0 +1,38 @@
+<div class="container-fluid" id="teclado">
+    <div class="row teclado p-t-1 p-b-1">
+        <div class="col-md-12">
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)" style="border-top-left-radius: 10px;">1</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">2</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)" style="border-top-right-radius: 10px;">3</div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">4</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">5</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">6</div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">7</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">8</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">9</div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s">
+                <i class="bi bi-dash" style="visibility: hidden;"></i>
+            </div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s" onclick="teclado(this)">0</div>
+            <div class="col-md-4 text-center p-5 manito border border-dark f-s">
+                <i class="bi bi-x" style="visibility: hidden;"></i>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-6 text-center p-5 manito border border-dark" id="enter" style="border-bottom-left-radius: 10px; font-size: 24px;">
+                <!-- <i class="bi bi-arrow-return-left tec"></i> -->
+                Enter
+            </div>
+            <div class="col-md-6 text-center p-5 manito border border-dark" onclick="teclado('borrar')" style="border-bottom-right-radius: 10px;">
+                <i class="bi bi-backspace tec"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<i class="bi bi-arrows-fullscreen" id="screen" style="display: none;"></i>
